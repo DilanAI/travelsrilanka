@@ -1,0 +1,130 @@
+/* Global Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background: #f8f9fa;
+  color: #333;
+}
+
+/* Navbar */
+.navbar-custom {
+  background-color: #2c3e50; /* Darker shade */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+  color: #ecf0f1; /* Lighter text for better contrast */
+  font-weight: 600;
+}
+.navbar-custom .nav-link:hover {
+  color: #3498db; /* Blue hover effect */
+}
+
+/* Hero Section */
+.hero-section {
+  height: 100vh;
+  background: url('img/hero.avif') no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.6);
+}
+.hero-section h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.hero-section p {
+  font-size: 1.2rem;
+}
+
+/* Info Section */
+.info-section {
+  padding: 60px 0;
+}
+.info-img {
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Destination Cards */
+.service-box {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.service-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+.service-box img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+.service-box:hover img {
+  transform: scale(1.05);
+}
+.service-box h3 {
+  margin-top: 10px;
+  font-weight: 600;
+  color: #00695c;
+}
+.service-box p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* Travel Stories Section */
+#stories {
+  padding: 60px 0;
+  background: #fff;
+}
+#stories h2 {
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.card {
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+.card-img-top {
+  height: 220px;
+  object-fit: cover;
+}
+.card-body h5 {
+  font-weight: 600;
+  color: #00695c;
+}
+.card-body p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* Footer */
+/* Footer */
+footer {
+  background-color: #34495e; /* Darker footer color */
+  color: #ecf0f1; /* Light text color for better contrast */
+}
+footer a {
+  color: #f39c12; /* Gold link color for emphasis */
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
